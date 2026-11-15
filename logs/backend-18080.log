@@ -1,0 +1,44 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-11-15T13:59:16.091+08:00  INFO 2264 --- [stock] [           main] com.li.stock.StockApplication            : Starting StockApplication using Java 21.0.12.1 with PID 2264 (D:\code\IdeaProject\stock\stock\target\classes started by LL in D:\code\IdeaProject\stock\stock)
+2026-11-15T13:59:16.093+08:00  INFO 2264 --- [stock] [           main] com.li.stock.StockApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-15T13:59:17.318+08:00  INFO 2264 --- [stock] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 18080 (http)
+2026-11-15T13:59:17.339+08:00  INFO 2264 --- [stock] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-15T13:59:17.339+08:00  INFO 2264 --- [stock] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15T13:59:17.441+08:00  INFO 2264 --- [stock] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1272 ms
+2026-11-15T13:59:18.013+08:00  INFO 2264 --- [stock] [           main] com.zaxxer.hikari.HikariDataSource       : stock-pool - Starting...
+2026-11-15T13:59:18.182+08:00  INFO 2264 --- [stock] [           main] com.zaxxer.hikari.pool.HikariPool        : stock-pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@67f946c3
+2026-11-15T13:59:18.183+08:00  INFO 2264 --- [stock] [           main] com.zaxxer.hikari.HikariDataSource       : stock-pool - Start completed.
+2026-11-15T13:59:18.832+08:00  INFO 2264 --- [stock] [           main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-11-15T13:59:19.090+08:00  INFO 2264 --- [stock] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 18080 (http) with context path '/'
+2026-11-15T13:59:19.096+08:00  INFO 2264 --- [stock] [           main] com.li.stock.StockApplication            : Started StockApplication in 3.624 seconds (process running for 4.251)
+2026-11-15T13:59:19.141+08:00  INFO 2264 --- [stock] [           main] c.l.stock.ga.config.GaSchemaInitializer  : [GA] 建表脚本 ga_schema.sql 已幂等执行
+2026-11-15T13:59:46.094+08:00  INFO 2264 --- [stock] [io-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15T13:59:46.094+08:00  INFO 2264 --- [stock] [io-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-15T13:59:46.095+08:00  INFO 2264 --- [stock] [io-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-15T13:59:46.099+08:00  INFO 2264 --- [stock] [io-18080-exec-1] API_ACCESS                               : [5ba6f635] --> GET /api/prob/overview | IP=127.0.0.1
+2026-11-15T13:59:51.972+08:00  INFO 2264 --- [stock] [           main] c.l.s.prob.config.ProbSchemaInitializer  : [PROB] 建表脚本 prob_schema.sql 已幂等执行
+2026-11-15T13:59:51.995+08:00  INFO 2264 --- [stock] [           main] c.l.s.q.config.QuantSchemaInitializer    : [QUANT] 建表脚本 quant_schema.sql 已幂等执行
+2026-11-15T13:59:51.999+08:00  INFO 2264 --- [stock] [           main] c.li.stock.schedule.ScoreScheduledTask   : 评分自动计算：应用启动完成，将在后台重算最近 10 个交易日
+2026-11-15T13:59:56.720+08:00  INFO 2264 --- [stock] [io-18080-exec-2] API_ACCESS                               : [a0616386] --> GET /api/prob/overview | IP=127.0.0.1
+2026-11-15T14:00:11.542+08:00  INFO 2264 --- [stock] [io-18080-exec-1] API_ACCESS                               : [5ba6f635] <-- GET /api/prob/overview | HTTP 200 | 耗时=25444ms | 响应大小=2683 B
+2026-11-15T14:00:11.824+08:00  INFO 2264 --- [stock] [io-18080-exec-6] API_ACCESS                               : [a320d78b] --> GET /api/prob/predictions?horizon=1&size=2 | IP=127.0.0.1
+2026-11-15T14:00:12.436+08:00  INFO 2264 --- [stock] [io-18080-exec-6] API_ACCESS                               : [a320d78b] <-- GET /api/prob/predictions?horizon=1&size=2 | HTTP 200 | 耗时=611ms | 响应大小=4622 B
+2026-11-15T14:00:12.522+08:00  INFO 2264 --- [stock] [io-18080-exec-4] API_ACCESS                               : [0b143953] --> GET /api/prob/config | IP=127.0.0.1
+2026-11-15T14:00:12.527+08:00  INFO 2264 --- [stock] [io-18080-exec-4] API_ACCESS                               : [0b143953] <-- GET /api/prob/config | HTTP 200 | 耗时=4ms | 响应大小=540 B
+2026-11-15T14:00:17.490+08:00  INFO 2264 --- [stock] [io-18080-exec-2] API_ACCESS                               : [a0616386] <-- GET /api/prob/overview | HTTP 200 | 耗时=20770ms | 响应大小=2683 B
+2026-11-15T14:00:28.408+08:00  INFO 2264 --- [stock] [score-scheduler] c.li.stock.service.ScoreScheduleService  : 评分自动计算 [startup] 开始：最近 10 个交易日 2026-11-02 ~ 2026-11-13，复权口径 2
+2026-11-15T14:00:33.645+08:00  INFO 2264 --- [stock] [io-18080-exec-5] API_ACCESS                               : [f74ee148] --> GET /api/prob/overview | IP=127.0.0.1
+2026-11-15T14:00:59.450+08:00  INFO 2264 --- [stock] [io-18080-exec-5] API_ACCESS                               : [f74ee148] <-- GET /api/prob/overview | HTTP 200 | 耗时=25804ms | 响应大小=2683 B
+2026-11-15T14:01:43.327+08:00  INFO 2264 --- [stock] [score-scheduler] c.li.stock.service.ScoreScheduleService  : 评分自动计算 [startup] 2026-11-02 完成：4291 只，耗时 74918 ms
+2026-11-15T14:01:55.478+08:00  INFO 2264 --- [stock] [et-cache-warmer] com.li.stock.service.MarketService       : 市场看板缓存预热完成，CacheStats{hitCount=9, missCount=12, loadSuccessCount=12, loadFailureCount=0, totalLoadTime=156370398600, evictionCount=0, evictionWeight=0}
+2026-11-15T14:02:51.773+08:00  INFO 2264 --- [stock] [score-scheduler] c.li.stock.service.ScoreScheduleService  : 评分自动计算 [startup] 2026-11-03 完成：4420 只，耗时 68446 ms
+2026-11-15T14:03:45.513+08:00  INFO 2264 --- [stock] [score-scheduler] c.li.stock.service.ScoreScheduleService  : 评分自动计算 [startup] 2026-11-04 完成：4421 只，耗时 53739 ms

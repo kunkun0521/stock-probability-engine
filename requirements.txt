@@ -1,0 +1,11 @@
+# A股股票概率预测引擎 · Python 计算引擎
+# 仅依赖纯 Python + 已编译放行的基础科学计算包。
+# 说明：本机 Windows WDAC 会拦截部分第三方 C 扩展 .pyd（SQLAlchemy/_cache_key_cy、
+# pandas 3.1.x 的 ops 扩展等），因此引擎刻意不使用 SQLAlchemy / arch / statsmodels /
+# PyYAML：数据库用 PyMySQL 直连，GARCH 与分位数回归用 numpy + scipy 自实现。
+# 配置用 JSON 语法的 YAML 1.2，Python 标准库 json 即可读取。
+pandas>=2.0,<3.1
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+PyMySQL>=1.1

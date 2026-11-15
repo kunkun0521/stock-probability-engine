@@ -1,0 +1,71 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-11-15T14:04:36.072+08:00  INFO 47240 --- [stock] [           main] com.li.stock.StockApplication            : Starting StockApplication using Java 21.0.12.1 with PID 47240 (D:\code\IdeaProject\stock\stock\target\classes started by LL in D:\code\IdeaProject\stock\stock)
+2026-11-15T14:04:36.075+08:00  INFO 47240 --- [stock] [           main] com.li.stock.StockApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-15T14:04:37.007+08:00  INFO 47240 --- [stock] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 18080 (http)
+2026-11-15T14:04:37.018+08:00  INFO 47240 --- [stock] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-15T14:04:37.018+08:00  INFO 47240 --- [stock] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-15T14:04:37.072+08:00  INFO 47240 --- [stock] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 956 ms
+2026-11-15T14:04:37.387+08:00  INFO 47240 --- [stock] [           main] com.zaxxer.hikari.HikariDataSource       : stock-pool - Starting...
+2026-11-15T14:04:37.496+08:00  INFO 47240 --- [stock] [           main] com.zaxxer.hikari.pool.HikariPool        : stock-pool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1785d194
+2026-11-15T14:04:37.497+08:00  INFO 47240 --- [stock] [           main] com.zaxxer.hikari.HikariDataSource       : stock-pool - Start completed.
+2026-11-15T14:04:37.860+08:00  INFO 47240 --- [stock] [           main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-11-15T14:04:38.063+08:00  INFO 47240 --- [stock] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 18080 (http) with context path '/'
+2026-11-15T14:04:38.069+08:00  INFO 47240 --- [stock] [           main] com.li.stock.StockApplication            : Started StockApplication in 2.33 seconds (process running for 2.626)
+2026-11-15T14:04:38.108+08:00  INFO 47240 --- [stock] [           main] c.l.stock.ga.config.GaSchemaInitializer  : [GA] 建表脚本 ga_schema.sql 已幂等执行
+2026-11-15T14:04:48.367+08:00  INFO 47240 --- [stock] [           main] c.l.s.prob.config.ProbSchemaInitializer  : [PROB] 建表脚本 prob_schema.sql 已幂等执行
+2026-11-15T14:04:48.387+08:00  INFO 47240 --- [stock] [           main] c.l.s.q.config.QuantSchemaInitializer    : [QUANT] 建表脚本 quant_schema.sql 已幂等执行
+2026-11-15T14:04:48.389+08:00  INFO 47240 --- [stock] [           main] c.li.stock.schedule.ScoreScheduledTask   : 评分自动计算：应用启动完成，将在后台重算最近 10 个交易日
+2026-11-15T14:05:00.198+08:00  INFO 47240 --- [stock] [io-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15T14:05:00.198+08:00  INFO 47240 --- [stock] [io-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-15T14:05:00.199+08:00  INFO 47240 --- [stock] [io-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-15T14:05:00.204+08:00  INFO 47240 --- [stock] [io-18080-exec-1] API_ACCESS                               : [75074a04] --> GET /api/prob/overview | IP=127.0.0.1
+2026-11-15T14:05:00.793+08:00  INFO 47240 --- [stock] [score-scheduler] c.li.stock.service.ScoreScheduleService  : 评分自动计算 [startup] 开始：最近 10 个交易日 2026-11-02 ~ 2026-11-13，复权口径 2
+2026-11-15T14:05:01.262+08:00  INFO 47240 --- [stock] [io-18080-exec-1] API_ACCESS                               : [75074a04] <-- GET /api/prob/overview | HTTP 200 | 耗时=1060ms | 响应大小=2737 B
+2026-11-15T14:05:01.389+08:00  INFO 47240 --- [stock] [io-18080-exec-2] API_ACCESS                               : [71b4225c] --> GET /api/prob/predictions?horizon=1&size=2 | IP=127.0.0.1
+2026-11-15T14:05:01.460+08:00  INFO 47240 --- [stock] [io-18080-exec-2] API_ACCESS                               : [71b4225c] <-- GET /api/prob/predictions?horizon=1&size=2 | HTTP 200 | 耗时=71ms | 响应大小=4622 B
+2026-11-15T14:05:01.580+08:00  INFO 47240 --- [stock] [io-18080-exec-3] API_ACCESS                               : [b65e4798] --> GET /api/prob/config | IP=127.0.0.1
+2026-11-15T14:05:01.585+08:00  INFO 47240 --- [stock] [io-18080-exec-3] API_ACCESS                               : [b65e4798] <-- GET /api/prob/config | HTTP 200 | 耗时=5ms | 响应大小=2483 B
+2026-11-15T14:05:01.701+08:00  INFO 47240 --- [stock] [io-18080-exec-4] API_ACCESS                               : [f1900d70] --> GET /api/prob/features | IP=127.0.0.1
+2026-11-15T14:05:01.705+08:00  INFO 47240 --- [stock] [io-18080-exec-4] API_ACCESS                               : [f1900d70] <-- GET /api/prob/features | HTTP 200 | 耗时=4ms | 响应大小=13142 B
+2026-11-15T14:05:01.804+08:00  INFO 47240 --- [stock] [io-18080-exec-5] API_ACCESS                               : [ee1bee33] --> GET /api/prob/runs | IP=127.0.0.1
+2026-11-15T14:05:01.810+08:00  INFO 47240 --- [stock] [io-18080-exec-5] API_ACCESS                               : [ee1bee33] <-- GET /api/prob/runs | HTTP 200 | 耗时=6ms | 响应大小=11743 B
+2026-11-15T14:05:01.905+08:00  INFO 47240 --- [stock] [io-18080-exec-6] API_ACCESS                               : [8101d958] --> GET /api/prob/models | IP=127.0.0.1
+2026-11-15T14:05:01.930+08:00  INFO 47240 --- [stock] [io-18080-exec-6] API_ACCESS                               : [8101d958] <-- GET /api/prob/models | HTTP 200 | 耗时=24ms | 响应大小=196212 B
+2026-11-15T14:05:02.040+08:00  INFO 47240 --- [stock] [io-18080-exec-8] API_ACCESS                               : [877b9506] --> GET /api/prob/eval/metrics?horizon=1 | IP=127.0.0.1
+2026-11-15T14:05:02.046+08:00  INFO 47240 --- [stock] [io-18080-exec-8] API_ACCESS                               : [877b9506] <-- GET /api/prob/eval/metrics?horizon=1 | HTTP 200 | 耗时=6ms | 响应大小=5588 B
+2026-11-15T14:05:02.144+08:00  INFO 47240 --- [stock] [io-18080-exec-9] API_ACCESS                               : [6e8e0093] --> GET /api/prob/eval/calibration?horizon=1 | IP=127.0.0.1
+2026-11-15T14:05:02.149+08:00  INFO 47240 --- [stock] [io-18080-exec-9] API_ACCESS                               : [6e8e0093] <-- GET /api/prob/eval/calibration?horizon=1 | HTTP 200 | 耗时=4ms | 响应大小=1956 B
+2026-11-15T14:05:02.254+08:00  INFO 47240 --- [stock] [o-18080-exec-10] API_ACCESS                               : [afe0732a] --> GET /api/prob/eval/methods?horizon=1 | IP=127.0.0.1
+2026-11-15T14:05:02.259+08:00  INFO 47240 --- [stock] [o-18080-exec-10] API_ACCESS                               : [afe0732a] <-- GET /api/prob/eval/methods?horizon=1 | HTTP 200 | 耗时=3ms | 响应大小=1957 B
+2026-11-15T14:05:02.365+08:00  INFO 47240 --- [stock] [io-18080-exec-1] API_ACCESS                               : [b55690d1] --> GET /api/prob/backtests | IP=127.0.0.1
+2026-11-15T14:05:02.368+08:00  INFO 47240 --- [stock] [io-18080-exec-1] API_ACCESS                               : [b55690d1] <-- GET /api/prob/backtests | HTTP 200 | 耗时=3ms | 响应大小=774 B
+2026-11-15T14:05:02.467+08:00  INFO 47240 --- [stock] [io-18080-exec-2] API_ACCESS                               : [17613653] --> GET /api/prob/backtests/2 | IP=127.0.0.1
+2026-11-15T14:05:02.481+08:00  INFO 47240 --- [stock] [io-18080-exec-2] API_ACCESS                               : [17613653] <-- GET /api/prob/backtests/2 | HTTP 200 | 耗时=14ms | 响应大小=64915 B
+2026-11-15T14:05:02.573+08:00  INFO 47240 --- [stock] [io-18080-exec-3] API_ACCESS                               : [908a2e4f] --> GET /api/prob/stocks/SH/600519 | IP=127.0.0.1
+2026-11-15T14:05:02.623+08:00  INFO 47240 --- [stock] [io-18080-exec-3] API_ACCESS                               : [908a2e4f] <-- GET /api/prob/stocks/SH/600519 | HTTP 200 | 耗时=49ms | 响应大小=22298 B
+2026-11-15T14:05:02.717+08:00  INFO 47240 --- [stock] [io-18080-exec-4] API_ACCESS                               : [8c261876] --> GET /api/prob/stocks/SH/600519/history?horizon=1 | IP=127.0.0.1
+2026-11-15T14:05:02.723+08:00  INFO 47240 --- [stock] [io-18080-exec-4] API_ACCESS                               : [8c261876] <-- GET /api/prob/stocks/SH/600519/history?horizon=1 | HTTP 200 | 耗时=5ms | 响应大小=451 B
+2026-11-15T14:05:02.818+08:00  INFO 47240 --- [stock] [io-18080-exec-5] API_ACCESS                               : [67397706] --> GET /api/prob/stocks/SH/600519/signals?horizon=1 | IP=127.0.0.1
+2026-11-15T14:05:02.837+08:00  INFO 47240 --- [stock] [io-18080-exec-5] API_ACCESS                               : [67397706] <-- GET /api/prob/stocks/SH/600519/signals?horizon=1 | HTTP 200 | 耗时=19ms | 响应大小=28943 B
+2026-11-15T14:05:11.343+08:00  INFO 47240 --- [stock] [io-18080-exec-6] API_ACCESS                               : [37374cfc] --> GET /api/prob/overview | IP=127.0.0.1
+2026-11-15T14:05:11.548+08:00  INFO 47240 --- [stock] [io-18080-exec-6] API_ACCESS                               : [37374cfc] <-- GET /api/prob/overview | HTTP 200 | 耗时=205ms | 响应大小=2737 B
+2026-11-15T14:05:11.623+08:00  INFO 47240 --- [stock] [io-18080-exec-7] API_ACCESS                               : [57fc2d9e] --> GET /api/prob/predictions?horizon=5&sort=exp_ret&size=50 | IP=127.0.0.1
+2026-11-15T14:05:12.097+08:00  INFO 47240 --- [stock] [io-18080-exec-7] API_ACCESS                               : [57fc2d9e] <-- GET /api/prob/predictions?horizon=5&sort=exp_ret&size=50 | HTTP 200 | 耗时=473ms | 响应大小=109130 B
+2026-11-15T14:05:12.178+08:00  INFO 47240 --- [stock] [io-18080-exec-8] API_ACCESS                               : [9e2e210a] --> POST /api/prob/runs | IP=127.0.0.1 | 请求体: {"type":"PREPARE","limitStocks":50}
+2026-11-15T14:05:12.244+08:00  INFO 47240 --- [stock] [pool-2-thread-1] com.li.stock.prob.task.ProbTaskService   : [PROB] 启动引擎任务 runId=15 cmd=[py, -3, -m, engine.cli, prepare, --run-id, 15, --limit-stocks, 50]
+2026-11-15T14:05:12.244+08:00  INFO 47240 --- [stock] [io-18080-exec-8] API_ACCESS                               : [9e2e210a] <-- POST /api/prob/runs | HTTP 200 | 耗时=66ms | 响应大小=350 B
+2026-11-15T14:05:19.245+08:00  INFO 47240 --- [stock] [et-cache-warmer] com.li.stock.service.MarketService       : 市场看板缓存预热完成，CacheStats{hitCount=9, missCount=12, loadSuccessCount=12, loadFailureCount=0, totalLoadTime=41164363600, evictionCount=0, evictionWeight=0}
+2026-11-15T14:05:38.925+08:00  INFO 47240 --- [stock] [pool-2-thread-1] com.li.stock.prob.task.ProbTaskService   : [PROB] 引擎任务 runId=15 结束 exit=0
+2026-11-15T14:05:57.149+08:00  INFO 47240 --- [stock] [score-scheduler] c.li.stock.service.ScoreScheduleService  : 评分自动计算 [startup] 2026-11-02 完成：4291 只，耗时 56354 ms
+2026-11-15T14:06:52.850+08:00  INFO 47240 --- [stock] [score-scheduler] c.li.stock.service.ScoreScheduleService  : 评分自动计算 [startup] 2026-11-03 完成：4420 只，耗时 55700 ms
+2026-11-15T14:07:11.924+08:00  INFO 47240 --- [stock] [io-18080-exec-9] API_ACCESS                               : [340c5a13] --> GET /api/prob/runs/15 | IP=127.0.0.1
+2026-11-15T14:07:11.973+08:00  INFO 47240 --- [stock] [io-18080-exec-9] API_ACCESS                               : [340c5a13] <-- GET /api/prob/runs/15 | HTTP 200 | 耗时=48ms | 响应大小=606 B

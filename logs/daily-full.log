@@ -1,0 +1,159 @@
+2026-11-15 13:45:31,060 INFO [prob] TASK_START daily {"asof": "None", "version": "spe-1.0.0-1331e7cc52"}
+D:\code\PythonProject\stock-probability-engine\engine\features.py:191: RuntimeWarning: Mean of empty slice
+  xb = np.nanmean(xm, axis=0)
+D:\code\PythonProject\stock-probability-engine\engine\features.py:193: RuntimeWarning: Mean of empty slice
+  cov = np.nanmean((xm - xb) * (y[:, None] - yb), axis=0)
+C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-11-15 13:46:01,745 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+D:\code\PythonProject\stock-probability-engine\engine\features.py:191: RuntimeWarning: Mean of empty slice
+  xb = np.nanmean(xm, axis=0)
+D:\code\PythonProject\stock-probability-engine\engine\features.py:193: RuntimeWarning: Mean of empty slice
+  cov = np.nanmean((xm - xb) * (y[:, None] - yb), axis=0)
+C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+2026-11-15 13:46:32,250 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 13:46:34,155 INFO [prob] TRAIN h=1 samples=42353 days=169 p0=0.4892 k_up=0.853 k_dn=-0.704 C=0.01
+2026-11-15 13:46:35,950 INFO [prob] TRAIN h=3 samples=41723 days=167 p0=0.5036 k_up=0.894 k_dn=-0.695 C=0.01
+2026-11-15 13:46:37,696 INFO [prob] TRAIN h=5 samples=41093 days=165 p0=0.5211 k_up=0.900 k_dn=-0.686 C=0.01
+2026-11-15 13:46:39,385 INFO [prob] TRAIN h=10 samples=39518 days=160 p0=0.5526 k_up=0.917 k_dn=-0.660 C=0.01
+2026-11-15 13:46:39,976 WARNING [prob] PREDICT_FAIL 300723.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:39,977 WARNING [prob] PREDICT_FAIL 300724.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:39,978 WARNING [prob] PREDICT_FAIL 300741.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:39,979 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,918 WARNING [prob] PREDICT_FAIL 300723.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,918 WARNING [prob] PREDICT_FAIL 300724.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,919 WARNING [prob] PREDICT_FAIL 300741.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,920 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,890 WARNING [prob] PREDICT_FAIL 300723.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,891 WARNING [prob] PREDICT_FAIL 300724.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,892 WARNING [prob] PREDICT_FAIL 300741.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,893 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,862 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,863 WARNING [prob] PREDICT_FAIL 301070.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,864 WARNING [prob] PREDICT_FAIL 301082.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,865 WARNING [prob] PREDICT_FAIL 301105.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,157 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,158 WARNING [prob] PREDICT_FAIL 301070.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,159 WARNING [prob] PREDICT_FAIL 301082.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,160 WARNING [prob] PREDICT_FAIL 301105.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:51,911 INFO [prob] SETTLE rows=4352
+2026-11-15 13:46:51,915 INFO [prob] WALKFORWARD block 1/8 done rows=4352
+2026-11-15 13:46:51,987 INFO [prob] FUSION h=1 n_oos=1088 cal=platt ECE 0.0982→0.0179 w=[0.181, 0.0, 0.017, 3.0, 0.964]
+2026-11-15 13:46:52,073 INFO [prob] FUSION h=3 n_oos=1088 cal=platt ECE 0.1292→0.1186 w=[0.077, 0.777, 0.283, 3.0, 0.725]
+2026-11-15 13:46:52,176 INFO [prob] FUSION h=5 n_oos=1088 cal=platt ECE 0.0845→0.0384 w=[0.0, 1.372, 0.0, 3.0, 1.368]
+2026-11-15 13:46:52,288 INFO [prob] FUSION h=10 n_oos=1088 cal=platt ECE 0.2973→0.0148 w=[0.0, 0.21, 0.052, 3.0, 0.0]
+2026-11-15 13:46:52,901 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:53,319 WARNING [prob] PREDICT_FAIL 603161.SH IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:54,529 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:54,923 WARNING [prob] PREDICT_FAIL 603161.SH IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:56,121 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:56,589 WARNING [prob] PREDICT_FAIL 603161.SH IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:57,908 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:59,516 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:47:08,341 INFO [prob] SETTLE rows=5948
+2026-11-15 13:47:08,344 INFO [prob] WALKFORWARD block 2/8 done rows=10300
+2026-11-15 13:47:08,520 INFO [prob] FUSION h=1 n_oos=2575 cal=platt ECE 0.0440→0.0088 w=[0.114, 0.422, 0.001, 3.0, 0.441]
+2026-11-15 13:47:08,694 INFO [prob] FUSION h=3 n_oos=2575 cal=platt ECE 0.2550→0.0262 w=[0.328, 0.528, 0.0, 3.0, 0.46]
+2026-11-15 13:47:08,877 INFO [prob] FUSION h=5 n_oos=2575 cal=platt ECE 0.3932→0.0000 w=[0.038, 0.563, 0.0, 3.0, 0.343]
+2026-11-15 13:47:09,107 INFO [prob] FUSION h=10 n_oos=2575 cal=platt ECE 0.1280→0.0119 w=[0.0, 0.651, 0.0, 0.51, 0.0]
+2026-11-15 13:47:09,859 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:47:11,538 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:47:25,592 INFO [prob] SETTLE rows=5972
+2026-11-15 13:47:25,595 INFO [prob] WALKFORWARD block 3/8 done rows=16272
+2026-11-15 13:47:26,197 INFO [prob] FUSION h=1 n_oos=4068 cal=platt ECE 0.1757→0.0163 w=[0.693, 0.0, 0.005, 2.522, 0.396]
+2026-11-15 13:47:26,802 INFO [prob] FUSION h=3 n_oos=4068 cal=platt ECE 0.1618→0.0331 w=[0.145, 0.209, 0.026, 0.492, 0.0]
+2026-11-15 13:47:27,443 INFO [prob] FUSION h=5 n_oos=4068 cal=platt ECE 0.0363→0.0352 w=[0.436, 0.214, 0.0, 1.202, 0.0]
+2026-11-15 13:47:28,048 INFO [prob] FUSION h=10 n_oos=4068 cal=platt ECE 0.1120→0.0449 w=[0.255, 0.235, 0.0, 0.0, 0.0]
+2026-11-15 13:47:44,609 INFO [prob] SETTLE rows=5980
+2026-11-15 13:47:44,612 INFO [prob] WALKFORWARD block 4/8 done rows=22252
+2026-11-15 13:47:45,445 INFO [prob] FUSION h=1 n_oos=5563 cal=platt ECE 0.2095→0.0064 w=[0.0, 0.0, 0.017, 1.235, 0.16]
+2026-11-15 13:47:46,245 INFO [prob] FUSION h=3 n_oos=5563 cal=platt ECE 0.2689→0.0001 w=[0.0, 0.0, 0.0, 1.742, 0.0]
+2026-11-15 13:47:47,079 INFO [prob] FUSION h=5 n_oos=5563 cal=platt ECE 0.2297→0.0341 w=[0.504, 0.274, 0.0, 0.05, 0.0]
+2026-11-15 13:47:47,905 INFO [prob] FUSION h=10 n_oos=5563 cal=platt ECE 0.1996→0.0103 w=[0.126, 0.417, 0.0, 0.0, 0.0]
+2026-11-15 13:48:05,483 INFO [prob] SETTLE rows=5980
+2026-11-15 13:48:05,486 INFO [prob] WALKFORWARD block 5/8 done rows=28232
+2026-11-15 13:48:06,557 INFO [prob] FUSION h=1 n_oos=7058 cal=platt ECE 0.0698→0.0123 w=[0.313, 0.425, 0.028, 0.0, 0.344]
+2026-11-15 13:48:07,636 INFO [prob] FUSION h=3 n_oos=7058 cal=platt ECE 0.0369→0.0140 w=[0.025, 0.744, 0.028, 0.0, 0.317]
+2026-11-15 13:48:08,655 INFO [prob] FUSION h=5 n_oos=7058 cal=platt ECE 0.0737→0.0093 w=[0.417, 1.086, 0.272, 0.0, 0.482]
+2026-11-15 13:48:09,709 INFO [prob] FUSION h=10 n_oos=7058 cal=platt ECE 0.0535→0.0010 w=[0.37, 0.74, 0.403, 0.0, 0.224]
+2026-11-15 13:48:25,426 INFO [prob] SETTLE rows=5980
+2026-11-15 13:48:25,429 INFO [prob] WALKFORWARD block 6/8 done rows=34212
+2026-11-15 13:48:26,599 INFO [prob] FUSION h=1 n_oos=8553 cal=platt ECE 0.0481→0.0076 w=[0.299, 0.391, 0.018, 0.039, 0.289]
+2026-11-15 13:48:27,785 INFO [prob] FUSION h=3 n_oos=8553 cal=platt ECE 0.0846→0.0018 w=[0.058, 0.868, 0.317, 0.0, 0.343]
+2026-11-15 13:48:28,930 INFO [prob] FUSION h=5 n_oos=8553 cal=platt ECE 0.0989→0.0000 w=[0.499, 0.975, 0.53, 0.0, 0.503]
+2026-11-15 13:48:30,314 INFO [prob] FUSION h=10 n_oos=8553 cal=platt ECE 0.0765→0.0197 w=[0.254, 0.679, 0.452, 0.0, 0.101]
+2026-11-15 13:48:46,584 INFO [prob] SETTLE rows=5980
+2026-11-15 13:48:46,587 INFO [prob] WALKFORWARD block 7/8 done rows=40192
+2026-11-15 13:48:47,965 INFO [prob] FUSION h=1 n_oos=10048 cal=platt ECE 0.0290→0.0085 w=[0.332, 0.516, 0.022, 0.0, 0.278]
+2026-11-15 13:48:49,469 INFO [prob] FUSION h=3 n_oos=10048 cal=platt ECE 0.0320→0.0232 w=[0.267, 0.757, 0.338, 0.0, 0.291]
+2026-11-15 13:48:50,850 INFO [prob] FUSION h=5 n_oos=10048 cal=platt ECE 0.0915→0.0154 w=[0.431, 0.791, 0.402, 0.0, 0.363]
+2026-11-15 13:48:52,267 INFO [prob] FUSION h=10 n_oos=10048 cal=platt ECE 0.2429→0.0114 w=[0.165, 0.583, 0.398, 0.0, 0.028]
+2026-11-15 13:49:09,054 INFO [prob] SETTLE rows=5980
+2026-11-15 13:49:09,058 INFO [prob] WALKFORWARD block 8/8 done rows=46172
+2026-11-15 13:49:16,421 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 13:49:18,201 INFO [prob] FUSION h=1 n_oos=11543 cal=platt ECE 0.0519→0.0012 w=[0.273, 0.517, 0.023, 0.0, 0.25]
+2026-11-15 13:49:19,913 INFO [prob] FUSION h=3 n_oos=11543 cal=platt ECE 0.1029→0.0096 w=[0.183, 0.711, 0.304, 0.0, 0.297]
+2026-11-15 13:49:21,782 INFO [prob] FUSION h=5 n_oos=11543 cal=platt ECE 0.2027→0.0246 w=[0.242, 0.76, 0.309, 0.0, 0.339]
+2026-11-15 13:49:23,151 INFO [prob] FUSION h=10 n_oos=11543 cal=platt ECE 0.3707→0.0000 w=[0.119, 0.601, 0.438, 0.0, 0.067]
+2026-11-15 13:49:28,207 INFO [prob] TRAIN h=1 samples=148168 days=430 p0=0.4792 k_up=0.835 k_dn=-0.753 C=0.01
+2026-11-15 13:49:32,970 INFO [prob] TRAIN h=3 samples=148322 days=428 p0=0.4810 k_up=0.852 k_dn=-0.766 C=0.01
+2026-11-15 13:49:37,603 INFO [prob] TRAIN h=5 samples=148452 days=426 p0=0.4858 k_up=0.861 k_dn=-0.776 C=0.01
+2026-11-15 13:49:42,396 INFO [prob] TRAIN h=10 samples=148436 days=421 p0=0.4907 k_up=0.864 k_dn=-0.783 C=0.01
+2026-11-15 13:52:02,640 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 13:52:03,007 ERROR [prob] TASK_FAIL daily 391.95s not enough arguments for format string
+Traceback (most recent call last):
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 125, in _mogrify
+    return query % args
+           ~~~~~~^~~~~~
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\PythonProject\stock-probability-engine\engine\logutil.py", line 38, in task_timer
+    yield state
+  File "D:\code\PythonProject\stock-probability-engine\engine\pipeline.py", line 307, in cmd_daily
+    evt = fit_evt_market(self.db, self.cfg, date.today(),
+                         stats.get("evt_pools", []), self.logger)
+  File "D:\code\PythonProject\stock-probability-engine\engine\evaluation.py", line 235, in fit_evt_market
+    db.execute("DELETE FROM prob_method_choice WHERE eval_date=%s AND output_name LIKE 'VaR_evt_%'",
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               (eval_date,))
+               ^^^^^^^^^^^^^
+  File "D:\code\PythonProject\stock-probability-engine\engine\db.py", line 87, in execute
+    return cur.execute(sql, params) if params else cur.execute(sql)
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 169, in execute
+    query = self._mogrify(query, args)
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 127, in _mogrify
+    raise err.ProgrammingError(str(m))
+pymysql.err.ProgrammingError: not enough arguments for format string
+2026-11-15 13:52:03,011 INFO [prob] TASK_END daily 391.95s {"ok": 12286, "fail": 0, "reasons": [], "error": "ProgrammingError: not enough arguments for format string"}
+2026-11-15 13:52:03,062 ERROR [prob] DAILY FAILED
+Traceback (most recent call last):
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 125, in _mogrify
+    return query % args
+           ~~~~~~^~~~~~
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\PythonProject\stock-probability-engine\engine\pipeline.py", line 307, in cmd_daily
+    evt = fit_evt_market(self.db, self.cfg, date.today(),
+                         stats.get("evt_pools", []), self.logger)
+  File "D:\code\PythonProject\stock-probability-engine\engine\evaluation.py", line 235, in fit_evt_market
+    db.execute("DELETE FROM prob_method_choice WHERE eval_date=%s AND output_name LIKE 'VaR_evt_%'",
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               (eval_date,))
+               ^^^^^^^^^^^^^
+  File "D:\code\PythonProject\stock-probability-engine\engine\db.py", line 87, in execute
+    return cur.execute(sql, params) if params else cur.execute(sql)
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 169, in execute
+    query = self._mogrify(query, args)
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 127, in _mogrify
+    raise err.ProgrammingError(str(m))
+pymysql.err.ProgrammingError: not enough arguments for format string
+{"code": 1, "message": "ProgrammingError: not enough arguments for format string", "traceback": "ock-probability-engine\\engine\\cli.py\", line 117, in main\n    _emit(dict(code=0, data=pipe.cmd_daily(asof, args.limit_stocks, args.run_id,\n                            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                                           args.force)))\n                                           ^^^^^^^^^^^\n  File \"D:\\code\\PythonProject\\stock-probability-engine\\engine\\pipeline.py\", line 307, in cmd_daily\n    evt = fit_evt_market(self.db, self.cfg, date.today(),\n                         stats.get(\"evt_pools\", []), self.logger)\n  File \"D:\\code\\PythonProject\\stock-probability-engine\\engine\\evaluation.py\", line 235, in fit_evt_market\n    db.execute(\"DELETE FROM prob_method_choice WHERE eval_date=%s AND output_name LIKE 'VaR_evt_%'\",\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n               (eval_date,))\n               ^^^^^^^^^^^^^\n  File \"D:\\code\\PythonProject\\stock-probability-engine\\engine\\db.py\", line 87, in execute\n    return cur.execute(sql, params) if params else cur.execute(sql)\n           ~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\A\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pymysql\\cursors.py\", line 169, in execute\n    query = self._mogrify(query, args)\n  File \"C:\\Users\\A\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\pymysql\\cursors.py\", line 127, in _mogrify\n    raise err.ProgrammingError(str(m))\npymysql.err.ProgrammingError: not enough arguments for format string\n"}

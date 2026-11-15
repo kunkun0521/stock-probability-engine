@@ -1,0 +1,10 @@
+{
+  "name": "M5_conditional_expectation",
+  "version": "1.0",
+  "params": {
+    "k_up": 0.8642824292182922,
+    "k_dn": -0.7826874852180481,
+    "n_up": 72834,
+    "n_dn": 75602
+  }
+}

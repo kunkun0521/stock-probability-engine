@@ -1,0 +1,270 @@
+2026-11-15 13:35:18,141 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=100 universe=0 excluded={'code_prefix': 0, 'st': 4, 'min_history': 96, 'suspension': 0, 'no_asof_data': 0} warn=1
+2026-11-15 13:36:36,204 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=100 universe=96 excluded={'code_prefix': 0, 'st': 4, 'min_history': 0, 'suspension': 0, 'no_asof_data': 0} warn=1
+2026-11-15 13:36:54,792 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=100 universe=96 excluded={'code_prefix': 0, 'st': 4, 'min_history': 0, 'suspension': 0, 'no_asof_data': 0} warn=1
+2026-11-15 13:36:57,575 INFO [prob] TRAIN h=1 samples=41229 days=430 p0=0.4758 k_up=0.834 k_dn=-0.749 C=0.01
+2026-11-15 13:37:00,220 INFO [prob] TRAIN h=3 samples=41007 days=428 p0=0.4755 k_up=0.854 k_dn=-0.760 C=0.01
+2026-11-15 13:37:02,887 INFO [prob] TRAIN h=5 samples=40785 days=426 p0=0.4786 k_up=0.853 k_dn=-0.768 C=0.01
+2026-11-15 13:37:05,721 INFO [prob] TRAIN h=10 samples=40230 days=421 p0=0.4802 k_up=0.844 k_dn=-0.764 C=0.01
+2026-11-15 13:38:12,462 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=100 universe=96 excluded={'code_prefix': 0, 'st': 4, 'min_history': 0, 'suspension': 0, 'no_asof_data': 0} warn=1
+2026-11-15 13:38:15,422 INFO [prob] TRAIN h=1 samples=41229 days=430 p0=0.4758 k_up=0.834 k_dn=-0.749 C=0.01
+2026-11-15 13:38:18,148 INFO [prob] TRAIN h=3 samples=41007 days=428 p0=0.4755 k_up=0.854 k_dn=-0.760 C=0.01
+2026-11-15 13:38:20,878 INFO [prob] TRAIN h=5 samples=40785 days=426 p0=0.4786 k_up=0.853 k_dn=-0.768 C=0.01
+2026-11-15 13:38:23,592 INFO [prob] TRAIN h=10 samples=40230 days=421 p0=0.4802 k_up=0.844 k_dn=-0.764 C=0.01
+2026-11-15 13:39:09,345 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=100 universe=96 excluded={'code_prefix': 0, 'st': 4, 'min_history': 0, 'suspension': 0, 'no_asof_data': 0} warn=1
+2026-11-15 13:39:10,548 INFO [prob] TRAIN h=1 samples=16202 days=169 p0=0.4909 k_up=0.835 k_dn=-0.711 C=0.01
+2026-11-15 13:39:11,848 INFO [prob] TRAIN h=3 samples=15996 days=167 p0=0.5006 k_up=0.875 k_dn=-0.718 C=0.01
+2026-11-15 13:39:13,082 INFO [prob] TRAIN h=5 samples=15790 days=165 p0=0.5136 k_up=0.875 k_dn=-0.714 C=0.01
+2026-11-15 13:39:14,172 INFO [prob] TRAIN h=10 samples=15275 days=160 p0=0.5311 k_up=0.878 k_dn=-0.697 C=0.01
+2026-11-15 13:39:22,111 INFO [prob] SETTLE rows=1920
+2026-11-15 13:39:22,118 INFO [prob] WALKFORWARD block 1/8 done rows=1920
+2026-11-15 13:39:22,171 INFO [prob] FUSION h=1 n_oos=480 cal=platt ECE 0.1665→0.0103 w=[0.0, 0.0, 0.051, 3.0, 0.0]
+2026-11-15 13:39:22,218 INFO [prob] FUSION h=3 n_oos=480 cal=platt ECE 0.1199→0.0200 w=[1.324, 1.222, 0.0, 2.685, 0.013]
+2026-11-15 13:39:22,261 INFO [prob] FUSION h=5 n_oos=480 cal=platt ECE 0.0951→0.0806 w=[0.25, 1.115, 0.0, 3.0, 0.0]
+2026-11-15 13:39:22,314 INFO [prob] FUSION h=10 n_oos=480 cal=platt ECE 0.2586→0.0230 w=[0.0, 0.043, 0.0, 2.063, 0.0]
+2026-11-15 13:39:30,106 INFO [prob] SETTLE rows=1920
+2026-11-15 13:39:30,109 INFO [prob] WALKFORWARD block 2/8 done rows=3840
+2026-11-15 13:39:30,194 INFO [prob] FUSION h=1 n_oos=960 cal=platt ECE 0.1468→0.0243 w=[0.0, 0.574, 0.056, 3.0, 0.0]
+2026-11-15 13:39:30,256 INFO [prob] FUSION h=3 n_oos=960 cal=platt ECE 0.2619→0.0725 w=[0.0, 0.486, 0.166, 3.0, 0.0]
+2026-11-15 13:39:30,319 INFO [prob] FUSION h=5 n_oos=960 cal=platt ECE 0.4004→0.0040 w=[0.0, 0.719, 0.0, 3.0, 0.0]
+2026-11-15 13:39:30,408 INFO [prob] FUSION h=10 n_oos=960 cal=platt ECE 0.1592→0.0056 w=[0.726, 0.774, 0.0, 0.0, 0.348]
+2026-11-15 13:39:37,874 INFO [prob] SETTLE rows=1920
+2026-11-15 13:39:37,877 INFO [prob] WALKFORWARD block 3/8 done rows=5760
+2026-11-15 13:39:37,995 INFO [prob] FUSION h=1 n_oos=1440 cal=platt ECE 0.2500→0.0663 w=[0.071, 0.496, 0.02, 0.159, 0.028]
+2026-11-15 13:39:38,148 INFO [prob] FUSION h=3 n_oos=1440 cal=platt ECE 0.3536→0.0413 w=[0.0, 0.988, 0.061, 1.051, 0.0]
+2026-11-15 13:39:38,267 INFO [prob] FUSION h=5 n_oos=1440 cal=platt ECE 0.2678→0.0234 w=[0.071, 1.385, 0.0, 0.0, 0.0]
+2026-11-15 13:39:38,402 INFO [prob] FUSION h=10 n_oos=1440 cal=platt ECE 0.0637→0.0433 w=[0.576, 0.751, 0.174, 0.0, 0.661]
+2026-11-15 13:39:45,495 INFO [prob] SETTLE rows=1920
+2026-11-15 13:39:45,498 INFO [prob] WALKFORWARD block 4/8 done rows=7680
+2026-11-15 13:39:45,646 INFO [prob] FUSION h=1 n_oos=1920 cal=platt ECE 0.1338→0.0042 w=[0.0, 0.0, 0.038, 3.0, 0.149]
+2026-11-15 13:39:45,829 INFO [prob] FUSION h=3 n_oos=1920 cal=platt ECE 0.1712→0.0043 w=[0.367, 0.0, 0.165, 1.971, 0.0]
+2026-11-15 13:39:45,986 INFO [prob] FUSION h=5 n_oos=1920 cal=platt ECE 0.0453→0.0362 w=[0.364, 0.813, 0.166, 0.0, 0.0]
+2026-11-15 13:39:46,159 INFO [prob] FUSION h=10 n_oos=1920 cal=platt ECE 0.0431→0.0553 w=[0.301, 0.513, 1.314, 0.0, 0.493]
+2026-11-15 13:39:53,395 INFO [prob] SETTLE rows=1920
+2026-11-15 13:39:53,398 INFO [prob] WALKFORWARD block 5/8 done rows=9600
+2026-11-15 13:39:53,595 INFO [prob] FUSION h=1 n_oos=2400 cal=platt ECE 0.0787→0.0151 w=[0.155, 0.098, 0.039, 1.611, 0.203]
+2026-11-15 13:39:53,762 INFO [prob] FUSION h=3 n_oos=2400 cal=platt ECE 0.0615→0.0085 w=[0.691, 0.456, 0.69, 0.0, 0.128]
+2026-11-15 13:39:53,923 INFO [prob] FUSION h=5 n_oos=2400 cal=platt ECE 0.1978→0.0099 w=[0.565, 1.09, 0.67, 0.0, 0.381]
+2026-11-15 13:39:54,119 INFO [prob] FUSION h=10 n_oos=2400 cal=platt ECE 0.1274→0.0280 w=[0.509, 0.696, 1.701, 0.0, 0.77]
+2026-11-15 13:40:01,329 INFO [prob] SETTLE rows=1920
+2026-11-15 13:40:01,332 INFO [prob] WALKFORWARD block 6/8 done rows=11520
+2026-11-15 13:40:01,592 INFO [prob] FUSION h=1 n_oos=2880 cal=platt ECE 0.1015→0.0059 w=[0.0, 0.242, 0.017, 2.231, 0.27]
+2026-11-15 13:40:01,889 INFO [prob] FUSION h=3 n_oos=2880 cal=platt ECE 0.2051→0.0000 w=[0.297, 0.603, 1.173, 1.497, 0.322]
+2026-11-15 13:40:02,156 INFO [prob] FUSION h=5 n_oos=2880 cal=platt ECE 0.2227→0.0240 w=[0.218, 0.977, 1.074, 0.434, 0.432]
+2026-11-15 13:40:02,442 INFO [prob] FUSION h=10 n_oos=2880 cal=platt ECE 0.0459→0.0438 w=[0.267, 0.628, 1.82, 0.0, 0.762]
+2026-11-15 13:40:10,126 INFO [prob] SETTLE rows=1920
+2026-11-15 13:40:10,129 INFO [prob] WALKFORWARD block 7/8 done rows=13440
+2026-11-15 13:40:10,418 INFO [prob] FUSION h=1 n_oos=3360 cal=isotonic ECE 0.0484→0.0002 w=[0.128, 0.295, 0.023, 2.534, 0.35]
+2026-11-15 13:40:10,724 INFO [prob] FUSION h=3 n_oos=3360 cal=isotonic ECE 0.0717→0.0000 w=[0.339, 0.5, 1.008, 0.36, 0.258]
+2026-11-15 13:40:11,052 INFO [prob] FUSION h=5 n_oos=3360 cal=isotonic ECE 0.0239→0.0000 w=[0.398, 0.75, 0.908, 0.429, 0.594]
+2026-11-15 13:40:11,351 INFO [prob] FUSION h=10 n_oos=3360 cal=isotonic ECE 0.1697→0.0000 w=[0.186, 0.582, 1.875, 0.0, 0.736]
+2026-11-15 13:40:19,208 INFO [prob] SETTLE rows=1920
+2026-11-15 13:40:19,211 INFO [prob] WALKFORWARD block 8/8 done rows=15360
+2026-11-15 13:41:02,595 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=100 universe=96 excluded={'code_prefix': 0, 'st': 4, 'min_history': 0, 'suspension': 0, 'no_asof_data': 0} warn=1
+2026-11-15 13:41:02,903 WARNING [prob] BACKTEST 没有可成交的交易
+2026-11-15 13:41:50,629 INFO [prob] EVALUATE n=15360 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 13:42:23,933 INFO [prob] BACKTEST id=1 trades=799 ann=-11.87% bench=-20.59% sharpe=-1.57 mdd=19.29%
+2026-11-15 13:43:04,466 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=100 universe=96 excluded={'code_prefix': 0, 'st': 4, 'min_history': 0, 'suspension': 0, 'no_asof_data': 0} warn=1
+2026-11-15 13:43:04,992 INFO [prob] FUSION h=1 n_oos=3840 cal=platt ECE 0.0334→0.0102 w=[0.174, 0.173, 0.014, 1.994, 0.337]
+2026-11-15 13:43:05,530 INFO [prob] FUSION h=3 n_oos=3840 cal=platt ECE 0.0395→0.0116 w=[0.328, 0.388, 0.982, 1.07, 0.397]
+2026-11-15 13:43:06,046 INFO [prob] FUSION h=5 n_oos=3840 cal=platt ECE 0.1382→0.0169 w=[0.342, 0.612, 0.894, 1.208, 0.78]
+2026-11-15 13:43:06,580 INFO [prob] FUSION h=10 n_oos=3840 cal=platt ECE 0.3144→0.0176 w=[0.314, 0.547, 1.882, 0.249, 0.941]
+2026-11-15 13:43:09,562 INFO [prob] TRAIN h=1 samples=41229 days=430 p0=0.4758 k_up=0.834 k_dn=-0.749 C=0.01
+2026-11-15 13:43:12,504 INFO [prob] TRAIN h=3 samples=41007 days=428 p0=0.4755 k_up=0.854 k_dn=-0.760 C=0.01
+2026-11-15 13:43:15,529 INFO [prob] TRAIN h=5 samples=40785 days=426 p0=0.4786 k_up=0.853 k_dn=-0.768 C=0.01
+2026-11-15 13:43:18,471 INFO [prob] TRAIN h=10 samples=40230 days=421 p0=0.4802 k_up=0.844 k_dn=-0.764 C=0.01
+2026-11-15 13:45:31,060 INFO [prob] TASK_START daily {"asof": "None", "version": "spe-1.0.0-1331e7cc52"}
+2026-11-15 13:46:01,745 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 13:46:32,250 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 13:46:34,155 INFO [prob] TRAIN h=1 samples=42353 days=169 p0=0.4892 k_up=0.853 k_dn=-0.704 C=0.01
+2026-11-15 13:46:35,950 INFO [prob] TRAIN h=3 samples=41723 days=167 p0=0.5036 k_up=0.894 k_dn=-0.695 C=0.01
+2026-11-15 13:46:37,696 INFO [prob] TRAIN h=5 samples=41093 days=165 p0=0.5211 k_up=0.900 k_dn=-0.686 C=0.01
+2026-11-15 13:46:39,385 INFO [prob] TRAIN h=10 samples=39518 days=160 p0=0.5526 k_up=0.917 k_dn=-0.660 C=0.01
+2026-11-15 13:46:39,976 WARNING [prob] PREDICT_FAIL 300723.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:39,977 WARNING [prob] PREDICT_FAIL 300724.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:39,978 WARNING [prob] PREDICT_FAIL 300741.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:39,979 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,918 WARNING [prob] PREDICT_FAIL 300723.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,918 WARNING [prob] PREDICT_FAIL 300724.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,919 WARNING [prob] PREDICT_FAIL 300741.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:40,920 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,890 WARNING [prob] PREDICT_FAIL 300723.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,891 WARNING [prob] PREDICT_FAIL 300724.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,892 WARNING [prob] PREDICT_FAIL 300741.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:41,893 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,862 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,863 WARNING [prob] PREDICT_FAIL 301070.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,864 WARNING [prob] PREDICT_FAIL 301082.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:42,865 WARNING [prob] PREDICT_FAIL 301105.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,157 WARNING [prob] PREDICT_FAIL 301062.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,158 WARNING [prob] PREDICT_FAIL 301070.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,159 WARNING [prob] PREDICT_FAIL 301082.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:44,160 WARNING [prob] PREDICT_FAIL 301105.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:51,911 INFO [prob] SETTLE rows=4352
+2026-11-15 13:46:51,915 INFO [prob] WALKFORWARD block 1/8 done rows=4352
+2026-11-15 13:46:51,987 INFO [prob] FUSION h=1 n_oos=1088 cal=platt ECE 0.0982→0.0179 w=[0.181, 0.0, 0.017, 3.0, 0.964]
+2026-11-15 13:46:52,073 INFO [prob] FUSION h=3 n_oos=1088 cal=platt ECE 0.1292→0.1186 w=[0.077, 0.777, 0.283, 3.0, 0.725]
+2026-11-15 13:46:52,176 INFO [prob] FUSION h=5 n_oos=1088 cal=platt ECE 0.0845→0.0384 w=[0.0, 1.372, 0.0, 3.0, 1.368]
+2026-11-15 13:46:52,288 INFO [prob] FUSION h=10 n_oos=1088 cal=platt ECE 0.2973→0.0148 w=[0.0, 0.21, 0.052, 3.0, 0.0]
+2026-11-15 13:46:52,901 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:53,319 WARNING [prob] PREDICT_FAIL 603161.SH IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:54,529 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:54,923 WARNING [prob] PREDICT_FAIL 603161.SH IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:56,121 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:56,589 WARNING [prob] PREDICT_FAIL 603161.SH IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:57,908 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:46:59,516 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:47:08,341 INFO [prob] SETTLE rows=5948
+2026-11-15 13:47:08,344 INFO [prob] WALKFORWARD block 2/8 done rows=10300
+2026-11-15 13:47:08,520 INFO [prob] FUSION h=1 n_oos=2575 cal=platt ECE 0.0440→0.0088 w=[0.114, 0.422, 0.001, 3.0, 0.441]
+2026-11-15 13:47:08,694 INFO [prob] FUSION h=3 n_oos=2575 cal=platt ECE 0.2550→0.0262 w=[0.328, 0.528, 0.0, 3.0, 0.46]
+2026-11-15 13:47:08,877 INFO [prob] FUSION h=5 n_oos=2575 cal=platt ECE 0.3932→0.0000 w=[0.038, 0.563, 0.0, 3.0, 0.343]
+2026-11-15 13:47:09,107 INFO [prob] FUSION h=10 n_oos=2575 cal=platt ECE 0.1280→0.0119 w=[0.0, 0.651, 0.0, 0.51, 0.0]
+2026-11-15 13:47:09,859 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:47:11,538 WARNING [prob] PREDICT_FAIL 301316.SZ IndexError: index 0 is out of bounds for axis 0 with size 0
+2026-11-15 13:47:25,592 INFO [prob] SETTLE rows=5972
+2026-11-15 13:47:25,595 INFO [prob] WALKFORWARD block 3/8 done rows=16272
+2026-11-15 13:47:26,197 INFO [prob] FUSION h=1 n_oos=4068 cal=platt ECE 0.1757→0.0163 w=[0.693, 0.0, 0.005, 2.522, 0.396]
+2026-11-15 13:47:26,802 INFO [prob] FUSION h=3 n_oos=4068 cal=platt ECE 0.1618→0.0331 w=[0.145, 0.209, 0.026, 0.492, 0.0]
+2026-11-15 13:47:27,443 INFO [prob] FUSION h=5 n_oos=4068 cal=platt ECE 0.0363→0.0352 w=[0.436, 0.214, 0.0, 1.202, 0.0]
+2026-11-15 13:47:28,048 INFO [prob] FUSION h=10 n_oos=4068 cal=platt ECE 0.1120→0.0449 w=[0.255, 0.235, 0.0, 0.0, 0.0]
+2026-11-15 13:47:44,609 INFO [prob] SETTLE rows=5980
+2026-11-15 13:47:44,612 INFO [prob] WALKFORWARD block 4/8 done rows=22252
+2026-11-15 13:47:45,445 INFO [prob] FUSION h=1 n_oos=5563 cal=platt ECE 0.2095→0.0064 w=[0.0, 0.0, 0.017, 1.235, 0.16]
+2026-11-15 13:47:46,245 INFO [prob] FUSION h=3 n_oos=5563 cal=platt ECE 0.2689→0.0001 w=[0.0, 0.0, 0.0, 1.742, 0.0]
+2026-11-15 13:47:47,079 INFO [prob] FUSION h=5 n_oos=5563 cal=platt ECE 0.2297→0.0341 w=[0.504, 0.274, 0.0, 0.05, 0.0]
+2026-11-15 13:47:47,905 INFO [prob] FUSION h=10 n_oos=5563 cal=platt ECE 0.1996→0.0103 w=[0.126, 0.417, 0.0, 0.0, 0.0]
+2026-11-15 13:48:05,483 INFO [prob] SETTLE rows=5980
+2026-11-15 13:48:05,486 INFO [prob] WALKFORWARD block 5/8 done rows=28232
+2026-11-15 13:48:06,557 INFO [prob] FUSION h=1 n_oos=7058 cal=platt ECE 0.0698→0.0123 w=[0.313, 0.425, 0.028, 0.0, 0.344]
+2026-11-15 13:48:07,636 INFO [prob] FUSION h=3 n_oos=7058 cal=platt ECE 0.0369→0.0140 w=[0.025, 0.744, 0.028, 0.0, 0.317]
+2026-11-15 13:48:08,655 INFO [prob] FUSION h=5 n_oos=7058 cal=platt ECE 0.0737→0.0093 w=[0.417, 1.086, 0.272, 0.0, 0.482]
+2026-11-15 13:48:09,709 INFO [prob] FUSION h=10 n_oos=7058 cal=platt ECE 0.0535→0.0010 w=[0.37, 0.74, 0.403, 0.0, 0.224]
+2026-11-15 13:48:25,426 INFO [prob] SETTLE rows=5980
+2026-11-15 13:48:25,429 INFO [prob] WALKFORWARD block 6/8 done rows=34212
+2026-11-15 13:48:26,599 INFO [prob] FUSION h=1 n_oos=8553 cal=platt ECE 0.0481→0.0076 w=[0.299, 0.391, 0.018, 0.039, 0.289]
+2026-11-15 13:48:27,785 INFO [prob] FUSION h=3 n_oos=8553 cal=platt ECE 0.0846→0.0018 w=[0.058, 0.868, 0.317, 0.0, 0.343]
+2026-11-15 13:48:28,930 INFO [prob] FUSION h=5 n_oos=8553 cal=platt ECE 0.0989→0.0000 w=[0.499, 0.975, 0.53, 0.0, 0.503]
+2026-11-15 13:48:30,314 INFO [prob] FUSION h=10 n_oos=8553 cal=platt ECE 0.0765→0.0197 w=[0.254, 0.679, 0.452, 0.0, 0.101]
+2026-11-15 13:48:46,584 INFO [prob] SETTLE rows=5980
+2026-11-15 13:48:46,587 INFO [prob] WALKFORWARD block 7/8 done rows=40192
+2026-11-15 13:48:47,965 INFO [prob] FUSION h=1 n_oos=10048 cal=platt ECE 0.0290→0.0085 w=[0.332, 0.516, 0.022, 0.0, 0.278]
+2026-11-15 13:48:49,469 INFO [prob] FUSION h=3 n_oos=10048 cal=platt ECE 0.0320→0.0232 w=[0.267, 0.757, 0.338, 0.0, 0.291]
+2026-11-15 13:48:50,850 INFO [prob] FUSION h=5 n_oos=10048 cal=platt ECE 0.0915→0.0154 w=[0.431, 0.791, 0.402, 0.0, 0.363]
+2026-11-15 13:48:52,267 INFO [prob] FUSION h=10 n_oos=10048 cal=platt ECE 0.2429→0.0114 w=[0.165, 0.583, 0.398, 0.0, 0.028]
+2026-11-15 13:49:09,054 INFO [prob] SETTLE rows=5980
+2026-11-15 13:49:09,058 INFO [prob] WALKFORWARD block 8/8 done rows=46172
+2026-11-15 13:49:16,421 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 13:49:18,201 INFO [prob] FUSION h=1 n_oos=11543 cal=platt ECE 0.0519→0.0012 w=[0.273, 0.517, 0.023, 0.0, 0.25]
+2026-11-15 13:49:19,913 INFO [prob] FUSION h=3 n_oos=11543 cal=platt ECE 0.1029→0.0096 w=[0.183, 0.711, 0.304, 0.0, 0.297]
+2026-11-15 13:49:21,782 INFO [prob] FUSION h=5 n_oos=11543 cal=platt ECE 0.2027→0.0246 w=[0.242, 0.76, 0.309, 0.0, 0.339]
+2026-11-15 13:49:23,151 INFO [prob] FUSION h=10 n_oos=11543 cal=platt ECE 0.3707→0.0000 w=[0.119, 0.601, 0.438, 0.0, 0.067]
+2026-11-15 13:49:28,207 INFO [prob] TRAIN h=1 samples=148168 days=430 p0=0.4792 k_up=0.835 k_dn=-0.753 C=0.01
+2026-11-15 13:49:32,970 INFO [prob] TRAIN h=3 samples=148322 days=428 p0=0.4810 k_up=0.852 k_dn=-0.766 C=0.01
+2026-11-15 13:49:37,603 INFO [prob] TRAIN h=5 samples=148452 days=426 p0=0.4858 k_up=0.861 k_dn=-0.776 C=0.01
+2026-11-15 13:49:42,396 INFO [prob] TRAIN h=10 samples=148436 days=421 p0=0.4907 k_up=0.864 k_dn=-0.783 C=0.01
+2026-11-15 13:52:02,640 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 13:52:03,007 ERROR [prob] TASK_FAIL daily 391.95s not enough arguments for format string
+Traceback (most recent call last):
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 125, in _mogrify
+    return query % args
+           ~~~~~~^~~~~~
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\PythonProject\stock-probability-engine\engine\logutil.py", line 38, in task_timer
+    yield state
+  File "D:\code\PythonProject\stock-probability-engine\engine\pipeline.py", line 307, in cmd_daily
+    evt = fit_evt_market(self.db, self.cfg, date.today(),
+                         stats.get("evt_pools", []), self.logger)
+  File "D:\code\PythonProject\stock-probability-engine\engine\evaluation.py", line 235, in fit_evt_market
+    db.execute("DELETE FROM prob_method_choice WHERE eval_date=%s AND output_name LIKE 'VaR_evt_%'",
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               (eval_date,))
+               ^^^^^^^^^^^^^
+  File "D:\code\PythonProject\stock-probability-engine\engine\db.py", line 87, in execute
+    return cur.execute(sql, params) if params else cur.execute(sql)
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 169, in execute
+    query = self._mogrify(query, args)
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 127, in _mogrify
+    raise err.ProgrammingError(str(m))
+pymysql.err.ProgrammingError: not enough arguments for format string
+2026-11-15 13:52:03,011 INFO [prob] TASK_END daily 391.95s {"ok": 12286, "fail": 0, "reasons": [], "error": "ProgrammingError: not enough arguments for format string"}
+2026-11-15 13:52:03,062 ERROR [prob] DAILY FAILED
+Traceback (most recent call last):
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 125, in _mogrify
+    return query % args
+           ~~~~~~^~~~~~
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\PythonProject\stock-probability-engine\engine\pipeline.py", line 307, in cmd_daily
+    evt = fit_evt_market(self.db, self.cfg, date.today(),
+                         stats.get("evt_pools", []), self.logger)
+  File "D:\code\PythonProject\stock-probability-engine\engine\evaluation.py", line 235, in fit_evt_market
+    db.execute("DELETE FROM prob_method_choice WHERE eval_date=%s AND output_name LIKE 'VaR_evt_%'",
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               (eval_date,))
+               ^^^^^^^^^^^^^
+  File "D:\code\PythonProject\stock-probability-engine\engine\db.py", line 87, in execute
+    return cur.execute(sql, params) if params else cur.execute(sql)
+           ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 169, in execute
+    query = self._mogrify(query, args)
+  File "C:\Users\A\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\pymysql\cursors.py", line 127, in _mogrify
+    raise err.ProgrammingError(str(m))
+pymysql.err.ProgrammingError: not enough arguments for format string
+2026-11-15 13:52:42,259 INFO [prob] TASK_START daily {"asof": "None", "version": "spe-1.0.0-1331e7cc52"}
+2026-11-15 13:53:10,906 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 13:53:39,746 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 13:53:41,626 INFO [prob] TRAIN h=1 samples=42353 days=169 p0=0.4892 k_up=0.853 k_dn=-0.704 C=0.01
+2026-11-15 13:53:43,454 INFO [prob] TRAIN h=3 samples=41723 days=167 p0=0.5036 k_up=0.894 k_dn=-0.695 C=0.01
+2026-11-15 13:53:45,222 INFO [prob] TRAIN h=5 samples=41093 days=165 p0=0.5211 k_up=0.900 k_dn=-0.686 C=0.01
+2026-11-15 13:53:46,999 INFO [prob] TRAIN h=10 samples=39518 days=160 p0=0.5526 k_up=0.917 k_dn=-0.660 C=0.01
+2026-11-15 13:53:56,335 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 13:53:58,112 INFO [prob] FUSION h=1 n_oos=11543 cal=platt ECE 0.0519→0.0012 w=[0.273, 0.517, 0.023, 0.0, 0.25]
+2026-11-15 13:53:59,666 INFO [prob] FUSION h=3 n_oos=11543 cal=platt ECE 0.1029→0.0096 w=[0.183, 0.711, 0.304, 0.0, 0.297]
+2026-11-15 13:54:01,182 INFO [prob] FUSION h=5 n_oos=11543 cal=platt ECE 0.2027→0.0246 w=[0.242, 0.76, 0.309, 0.0, 0.339]
+2026-11-15 13:54:02,685 INFO [prob] FUSION h=10 n_oos=11543 cal=platt ECE 0.3707→0.0000 w=[0.119, 0.601, 0.438, 0.0, 0.067]
+2026-11-15 13:54:07,523 INFO [prob] TRAIN h=1 samples=148168 days=430 p0=0.4792 k_up=0.835 k_dn=-0.753 C=0.01
+2026-11-15 13:54:12,119 INFO [prob] TRAIN h=3 samples=148322 days=428 p0=0.4810 k_up=0.852 k_dn=-0.766 C=0.01
+2026-11-15 13:54:16,825 INFO [prob] TRAIN h=5 samples=148452 days=426 p0=0.4858 k_up=0.861 k_dn=-0.776 C=0.01
+2026-11-15 13:54:21,942 INFO [prob] TRAIN h=10 samples=148436 days=421 p0=0.4907 k_up=0.864 k_dn=-0.783 C=0.01
+2026-11-15 13:57:12,819 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 13:57:13,132 INFO [prob] EVT {'low_vol': {'ok': True, 'xi': 0.156, 'var99': 2.509}, 'mid_vol': {'ok': True, 'xi': 0.148, 'var99': 2.463}, 'high_vol': {'ok': True, 'xi': 0.1, 'var99': 2.433}}
+2026-11-15 13:57:14,483 INFO [prob] BACKTEST id=2 trades=799 ann=-17.85% bench=-19.63% sharpe=-1.94 mdd=23.17%
+2026-11-15 13:57:14,503 INFO [prob] TASK_END daily 272.24s {"ok": 12286, "fail": 0, "reasons": []}
+2026-11-15 14:05:38,769 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=50 universe=47 excluded={'code_prefix': 0, 'st': 3, 'min_history': 0, 'suspension': 0, 'no_asof_data': 0} warn=0
+2026-11-15 14:27:45,833 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 14:27:51,023 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 14:27:52,827 INFO [prob] TRAIN h=1 samples=42353 days=169 p0=0.4892 k_up=0.853 k_dn=-0.704 C=0.01
+2026-11-15 14:27:54,647 INFO [prob] TRAIN h=3 samples=41723 days=167 p0=0.5036 k_up=0.894 k_dn=-0.695 C=0.01
+2026-11-15 14:27:56,722 INFO [prob] TRAIN h=5 samples=41093 days=165 p0=0.5211 k_up=0.900 k_dn=-0.686 C=0.01
+2026-11-15 14:27:58,960 INFO [prob] TRAIN h=10 samples=39518 days=160 p0=0.5526 k_up=0.917 k_dn=-0.660 C=0.01
+2026-11-15 14:28:22,065 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 14:28:23,275 INFO [prob] BACKTEST id=3 trades=799 ann=-17.85% bench=-19.63% sharpe=-1.94 mdd=23.17%
+2026-11-15 14:28:30,831 INFO [prob] TASK_START daily {"asof": "None", "version": "spe-1.0.0-1331e7cc52"}
+2026-11-15 14:28:42,466 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 14:29:04,684 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 14:29:31,960 INFO [prob] PREPARE asof=2026-11-13 dates=491 stocks=4606 universe=3071 excluded={'code_prefix': 0, 'st': 181, 'min_history': 1342, 'suspension': 10, 'no_asof_data': 2} warn=80
+2026-11-15 14:29:34,206 INFO [prob] TRAIN h=1 samples=42353 days=169 p0=0.4892 k_up=0.853 k_dn=-0.704 C=0.01
+2026-11-15 14:29:35,930 INFO [prob] TRAIN h=3 samples=41723 days=167 p0=0.5036 k_up=0.894 k_dn=-0.695 C=0.01
+2026-11-15 14:29:37,843 INFO [prob] TRAIN h=5 samples=41093 days=165 p0=0.5211 k_up=0.900 k_dn=-0.686 C=0.01
+2026-11-15 14:29:39,684 INFO [prob] TRAIN h=10 samples=39518 days=160 p0=0.5526 k_up=0.917 k_dn=-0.660 C=0.01
+2026-11-15 14:29:49,080 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 14:29:50,823 INFO [prob] FUSION h=1 n_oos=11543 cal=platt ECE 0.0519→0.0012 w=[0.273, 0.517, 0.023, 0.0, 0.25]
+2026-11-15 14:29:52,655 INFO [prob] FUSION h=3 n_oos=11543 cal=platt ECE 0.1029→0.0096 w=[0.183, 0.711, 0.304, 0.0, 0.297]
+2026-11-15 14:29:54,483 INFO [prob] FUSION h=5 n_oos=11543 cal=platt ECE 0.2027→0.0246 w=[0.242, 0.76, 0.309, 0.0, 0.339]
+2026-11-15 14:29:56,297 INFO [prob] FUSION h=10 n_oos=11543 cal=platt ECE 0.3707→0.0000 w=[0.119, 0.601, 0.438, 0.0, 0.067]
+2026-11-15 14:30:00,961 INFO [prob] TRAIN h=1 samples=148168 days=430 p0=0.4792 k_up=0.835 k_dn=-0.753 C=0.01
+2026-11-15 14:30:05,437 INFO [prob] TRAIN h=3 samples=148322 days=428 p0=0.4810 k_up=0.852 k_dn=-0.766 C=0.01
+2026-11-15 14:30:10,177 INFO [prob] TRAIN h=5 samples=148452 days=426 p0=0.4858 k_up=0.861 k_dn=-0.776 C=0.01
+2026-11-15 14:30:14,691 INFO [prob] TRAIN h=10 samples=148436 days=421 p0=0.4907 k_up=0.864 k_dn=-0.783 C=0.01
+2026-11-15 14:32:32,020 INFO [prob] EVALUATE n=46172 horizons=[1, 3, 5, 10] grades={1: 'C', 3: 'C', 5: 'C', 10: 'B'}
+2026-11-15 14:32:32,340 INFO [prob] EVT {'low_vol': {'ok': True, 'xi': 0.156, 'var99': 2.509}, 'mid_vol': {'ok': True, 'xi': 0.148, 'var99': 2.463}, 'high_vol': {'ok': True, 'xi': 0.1, 'var99': 2.433}}
+2026-11-15 14:32:33,545 INFO [prob] BACKTEST id=4 trades=799 ann=-17.85% bench=-19.63% sharpe=-1.94 mdd=23.17%
+2026-11-15 14:32:33,588 INFO [prob] TASK_END daily 242.76s {"ok": 12286, "fail": 0, "reasons": []}
